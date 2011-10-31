@@ -1,0 +1,90 @@
+\documentclass[conference]{IEEEtran}
+\usepackage{makeidx}  % allows for indexgeneration
+\usepackage[english,brazil,brazilian,portuguese]{babel} %% Usado na qualificação
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% O pacote na linha abaixo não hifena corretamente palavras acentuadas
+%\usepackage[latin1]{inputenc}
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+\hyphenation{register-Listener}
+\hyphenation{he-te-ro-gei-ni-da-de}
+\hyphenation{co-necti-vi-da-de}
+\hyphenation{en-capsu-lan-do}
+\hyphenation{auxi-liam}
+\hyphenation{mo-bi-li-da-de}
+\hyphenation{cons-tru-ção}
+\hyphenation{ex-pe-riên-cia}
+\hyphenation{res-pon-sá-vel}
+\hyphenation{ca-mi-nho}
+\hyphenation{middleware}
+%
+\usepackage[T1]{fontenc}%%Hifena corretamente palavras acentuadas
+\usepackage{ae} %% pra melhorar a geração de pdf do comando acima
+\usepackage[numbers]{natbib}
+\usepackage{url} %% Para renderizar Urls
+\usepackage{graphicx} %% Para utilizar imagens jpeg
+%\usepackage{hyperref} %% para utilizar casos especiais de ref, como o \autoref{}, além de criar links especiais para os itens do documento
+\usepackage{rotating} %% Para rotacionar elementos
+\usepackage{listings} %% Para exibir trechos de código
+
+\begin{document}
+%
+% paper title
+% can use linebreaks \\ within to get better formatting as desired
+\title{Identificação e Localização de Pessoas em ambientes inteligentes.}
+
+
+% author names and affiliations
+% use a multiple column layout for up to three different
+% affiliations
+\author{\IEEEauthorblockN{Danilo Ávila Monte Christo Ferreira, Tales Mundim de Andrade Porto}
+\IEEEauthorblockA{Departamento de Ciências da Computação , Instituto de Ciências Exatas\\
+Universidade de Brasília (UnB)\\
+Brasília, Brazil\\
+Campus Universitário Darcy Ribeiro - Asa Norte -- ICC Centro -- Caixa postal 4466\\
+70.910-900 -- Brasília -- DF -- Brasil\\
+daniloavilaf@gmail.com, talesap@gmail.com\\ 
+\texttt{http://www.cic.unb.br}}
+}
+
+
+% make the title area
+\maketitle
+
+
+\begin{abstract}
+Abstract
+\end{abstract}
+
+\section{Introdução}
+\label{sec:introduction}
+Introdução
+
+\section{Sistema TRUE}
+\label{sec:proposta}
+
+Proposta
+
+\section{Testes}
+\label{sec:testes}
+
+Testes
+
+\section{Conclusão}
+\label{sec:conclusao}
+
+Conclusão
+
+\section{Desafios futuros}
+\label{sec:desafios}
+
+Desafios Futuros
+
+
+\bibliographystyle{IEEEtran}
+\bibliography{IEEEabrv,WPOS_2011_Danilo_Tales}
+
+
+% that's all folks
+\end{document}
