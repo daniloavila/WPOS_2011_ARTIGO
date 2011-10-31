@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.4.25)  31 OCT 2011 08:44
+This is pdfTeX, Version 3.1415926-1.40.11 (TeX Live 2010) (format=pdflatex 2011.4.25)  31 OCT 2011 09:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -317,7 +317,24 @@ LaTeX Font Info:    Try loading font information for T1+aett on input line 53.
 (/usr/local/texlive/2010/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
-No file WPOS_2011_Danilo_Tales.bbl.
+(./bin/WPOS_2011_Danilo_Tales.bbl
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 27.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 27.
+
+Underfull \hbox (badness 1565) in paragraph at lines 31--34
+[]\T1/aer/m/n/10 ------, ``The world is not a desk-top,'' \T1/aer/m/it/10 ACM I
+n-te-
+ []
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 31--34
+\T1/aer/m/it/10 rac-ti-ons\T1/aer/m/n/10 , 1993, avai-la-ble in $http : / / www
+ . ubiq . com /
+ []
+
+)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -336,24 +353,25 @@ Before submitting the final camera ready copy, remember to:
 ]
 (./bin/WPOS_2011_Danilo_Tales.aux) ) 
 Here is how much of TeX's memory you used:
- 4570 strings out of 493763
- 67160 string characters out of 3144954
- 125635 words of memory out of 3000000
- 7755 multiletter control sequences out of 15000+200000
- 101464 words of font info for 120 fonts, out of 3000000 for 9000
+ 4593 strings out of 493763
+ 67544 string characters out of 3144954
+ 128672 words of memory out of 3000000
+ 7774 multiletter control sequences out of 15000+200000
+ 102163 words of font info for 122 fonts, out of 3000000 for 9000
  729 hyphenation exceptions out of 8191
- 38i,9n,32p,284b,308s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,9n,32p,714b,308s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2010/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2010/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2010/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2010/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmtt10.pfb>
-Output written on ./bin/WPOS_2011_Danilo_Tales.pdf (1 page, 70953 bytes).
+public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2010/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmtt10.pfb>
+Output written on ./bin/WPOS_2011_Danilo_Tales.pdf (1 page, 87299 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
+ 36 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
